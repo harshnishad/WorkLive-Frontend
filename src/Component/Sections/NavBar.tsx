@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styled, { keyframes } from 'styled-components';
 import logo from '../../Assets/Logo.png';
 
@@ -11,16 +11,7 @@ const fadeIn = keyframes`
   }
 `;
 
-const hoverEffect = keyframes`
-  0% {
-    transform: scale(1);
-    background-color: #A5BFCC;
-  }
-  100% {
-    transform: scale(1.1);
-    background-color: #6D8B9A;
-  }
-`;
+
 
 const Navbar = styled.nav`
   background-color: #A5BFCC;
