@@ -32,7 +32,7 @@ const NavLinks = styled.ul`
   margin: 5vh 0px 0px 0px;
 `;
 
-const NavLink = styled.li``;
+const NavLink = styled.a``;
 
 const Link = styled.a`
   font-family: sans-serif;
@@ -93,13 +93,13 @@ const NavBar = () => {
       <Logo src={logo} />
       <NavLinks>
         <NavLink>
-          <Link href="#home">SOLUTION</Link>
+          <Link href="#solution">SOLUTION</Link>
         </NavLink>
         <NavLink>
-          <Link href="#about">REVIEW</Link>
+          <Link href="#review">REVIEW</Link>
         </NavLink>
         <NavLink>
-          <Link href="#services">ABOUT US</Link>
+          <Link href="#aboutUs">ABOUT US</Link>
         </NavLink>
         <NavLink>
           <Link href="#contact">CONTACT</Link>
