@@ -6,7 +6,7 @@ import curve from '../../Assets/curve2.png';
 const CommentPage = () => {
  const CommentBoxes = styled.div`
    
-   height:140vh;
+   height:150vh;
    width:99vw;
    background-color:#0A0D25;
   `;
