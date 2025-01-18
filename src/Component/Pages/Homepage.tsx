@@ -1,3 +1,5 @@
+
+import CommentPage from "../Sections/CommentPage";
 import Features from "../Sections/Features";
 import HeroSection from "../Sections/HeroSection";
 import NavBar from "../Sections/NavBar";
@@ -8,6 +10,7 @@ const Homepage = () => {
       <NavBar />
       <HeroSection />
       <Features />
+      <CommentPage />
     </>
   );
 };
