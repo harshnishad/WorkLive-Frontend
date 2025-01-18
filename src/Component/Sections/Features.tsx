@@ -2,7 +2,10 @@ import styled from "styled-components"
 import f1 from '../../Assets/myAppSpec.webp';
 import f2 from '../../Assets/myAppSpec2.webp';
 import f3 from '../../Assets/myAppSpec3.webp';
+<<<<<<< HEAD
 import curve from '../../Assets/curve2.png';
+=======
+>>>>>>> e3bd3b5fd24b243a47a085dc68d0a3ae619bfd36
 import { SetStateAction, useState } from "react";
 const Features = () => {
     const FeatureSection = styled.div`
