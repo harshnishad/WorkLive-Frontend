@@ -33,10 +33,9 @@ const Comment: React.FC<CommentProps> = ({
   `;
 
   const Logo = styled.img`
-    width: 30px; 
-    height: 30px; 
-    margin-bottom: 10px; 
-    margin: 0px 0px 0px 120px;
+    width: 27px; 
+    height: 20px; 
+    margin: 0px 0px 0px 21vw;
   `;
 
   const FirstSection = styled.div`
@@ -52,7 +51,9 @@ const Comment: React.FC<CommentProps> = ({
     margin-right: 10px;
   `;
   
-  const About = styled.div``;
+  const About = styled.div`
+   
+  `;
   
   const Name = styled.h2`
     margin: 0;
@@ -78,6 +79,7 @@ const Comment: React.FC<CommentProps> = ({
   `;
   
   const Replying = styled.p`
+    
     font-size: 12px;
     color: #bbb; 
   `;
@@ -144,6 +146,7 @@ const Comment: React.FC<CommentProps> = ({
 
   return (
     <Comments>
+        <Logo src="https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=ffffff" alt="Logo" />
       <FirstSection>
         <ProfilePic src={profilePic} alt={`${name}'s profile`} />
         <About>
@@ -151,8 +154,9 @@ const Comment: React.FC<CommentProps> = ({
           <UserName>{username}</UserName>
           {replyingTo && <Replying>Replying to {replyingTo}</Replying>}
         </About>
-        <Logo src="https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=ffffff" alt="Logo" />
+        
       </FirstSection>
+      
       <SecondSection>
         <ActualComment>{comment}</ActualComment>
         <CommentTime>{time}</CommentTime>
