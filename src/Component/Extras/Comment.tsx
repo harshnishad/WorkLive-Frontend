@@ -23,13 +23,13 @@ const Comment: React.FC<CommentProps> = ({
   const Comments = styled.div`
     height: auto;
     width: 24vw;
-    border: 1px solid #444; /* Darker border for dark mode */
+    border: 1px solid #444;
     border-radius: 10px;
     padding: 10px;
     box-sizing: border-box;
     margin-bottom: 10px;
-    background-color: #222; /* Dark background */
-    color: #fff; /* Light text color */
+    background-color: #222; 
+    color: #fff;
   `;
 
   const Logo = styled.img`
