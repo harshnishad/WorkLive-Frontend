@@ -4,6 +4,7 @@ import Features from "../Sections/Features";
 import FunctionPage from "../Sections/FunctionPage";
 import HeroSection from "../Sections/HeroSection";
 import NavBar from "../Sections/NavBar";
+import Footer from "../Sections/Fotter";
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
       <Features />
       <CommentPage />
       <FunctionPage />
+      <Footer />
     </>
   );
 };
