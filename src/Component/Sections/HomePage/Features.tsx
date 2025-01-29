@@ -1,7 +1,7 @@
 import styled from "styled-components"
-import f1 from "../../../Assets/myAppSpec.webp";
-import f2 from "../../../Assets/myAppSpec2.webp";
-import f3 from "../../../Assets/myAppSpec3.webp";
+import f1 from "../../Assets/myAppSpec.webp";
+import f2 from "../../Assets/myAppSpec2.webp";
+import f3 from "../../Assets/myAppSpec3.webp";
 
 
 import { SetStateAction, useState } from "react";
