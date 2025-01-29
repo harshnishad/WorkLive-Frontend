@@ -9,7 +9,7 @@ import Footer from "../../Sections/HomePage/Footer";
 const Homepage = () => {
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       <HeroSection />
       <Features />
       <CommentPage />
