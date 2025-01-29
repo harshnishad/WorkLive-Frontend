@@ -2,9 +2,9 @@ import styled from "styled-components"
 
 
 const Login = () => {
-
+  const LoginWrapper = styled.div``;
   return (
-    <div>Login</div>
+    <LoginWrapper>Login</LoginWrapper>
   )
 }
 
