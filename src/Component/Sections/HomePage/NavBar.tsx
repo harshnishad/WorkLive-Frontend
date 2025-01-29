@@ -1,7 +1,6 @@
-
+import {Link as WebLink} from "react-router-dom"
 import styled, { keyframes } from 'styled-components';
 import logo from '../../Assets/Logo.png';
-
 const fadeIn = keyframes`
   from {
     opacity: 0;
@@ -86,6 +85,9 @@ const SignUp = styled.button`
     transform: scale(1.1);
   }
 `;
+const Text=styled(WebLink)`
+  text-decoration:none;
+`;
 
 const NavBar = () => {
   return (
@@ -106,8 +108,8 @@ const NavBar = () => {
         </NavLink>
       </NavLinks>
       <LoginOrSignUp>
-        <Login>Login</Login>
-        <SignUp>Sign Up</SignUp>
+        <Login><Text to="/login">Login</Text></Login>
+        <SignUp><Text to="/signup">SignUp</Text></SignUp>
       </LoginOrSignUp>
     </Navbar>
   );
