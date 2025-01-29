@@ -1,5 +1,5 @@
-import { Link as RouterLink } from 'react-router-dom'; // import for React Router
-import logo from "../../../Assets/Logo.png";
+import { Link as RouterLink } from 'react-router-dom'; 
+import img from "../../../Assets/Logo.png";
 import styled, { keyframes } from 'styled-components';
 
 const fadeIn = keyframes`
@@ -90,7 +90,7 @@ const Text = styled(RouterLink)`
 const NavBar = () => {
   return (
     <Navbar>
-      <Logo src={logo} />
+      <Logo src={img} />
       <NavLinks>
         <NavLink>
           <Link href="#solution">SOLUTION</Link>
