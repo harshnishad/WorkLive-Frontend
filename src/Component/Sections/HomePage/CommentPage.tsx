@@ -1,5 +1,5 @@
 
-import { styled } from 'styled-components';
+import styled  from 'styled-components';
 import Comment from '../../Extras/Comment.tsx';
 import data from '../../../Assets/data.ts'
 import curve from '../../../Assets/curve2.png';
