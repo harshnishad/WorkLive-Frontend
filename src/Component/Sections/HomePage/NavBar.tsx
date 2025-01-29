@@ -1,4 +1,4 @@
-import { Link as RouterLink } from 'react-router-dom'; 
+// import { Link as RouterLink } from 'react-router-dom'; 
 import img from "../../../Assets/Logo.png";
 import styled, { keyframes } from 'styled-components';
 
@@ -84,9 +84,9 @@ const SignUp = styled.button`
     transform: scale(1.1);
   }
 `;
-const Text = styled(RouterLink)`
-   text-decoration:none;
-`;
+// const Text = styled(RouterLink)`
+//    text-decoration:none;
+// `;
 const NavBar = () => {
   return (
     <Navbar>
@@ -106,8 +106,8 @@ const NavBar = () => {
         </NavLink>
       </NavLinks>
       <LoginOrSignUp>
-        <Login > <Text to="/login" >Login</Text> </Login> 
-        <SignUp > <Text to="/signUp" >SignUp</Text> </SignUp> 
+        <Login > Login </Login> 
+        <SignUp >SignUp </SignUp> 
       </LoginOrSignUp>
     </Navbar>
   );
