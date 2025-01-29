@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import curve from "../../../Assets/curve.png";
 
-// Define styled components outside the functional component
+
 const Hero = styled.div`
   padding: 10vh 0 0 0;
   background-color: #A5BFCC;
