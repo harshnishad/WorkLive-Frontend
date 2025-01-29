@@ -1,8 +1,8 @@
 
 import { styled } from 'styled-components';
-import Comment from '../Extras/Comment';
-import data from '../../Assets/data.ts'
-import curve from '../../Assets/curve2.png';
+import Comment from '../../Extras/Comment.tsx';
+import data from '../../../Assets/data.ts'
+import curve from '../../../Assets/curve2.png';
 const CommentPage = () => {
  const CommentBoxes = styled.div`
    

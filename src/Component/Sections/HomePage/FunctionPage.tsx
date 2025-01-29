@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Function from "../Extras/Function";
+import Function from "../../Extras/Function";
 
 const FunctionPage = () => {
   const FunctionDiv = styled.div`

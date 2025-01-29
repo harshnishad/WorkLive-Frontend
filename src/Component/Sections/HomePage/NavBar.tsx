@@ -1,6 +1,6 @@
-
+import { Link as RouterLink } from 'react-router-dom'; // import for React Router
+import logo from "../../../Assets/Logo.png";
 import styled, { keyframes } from 'styled-components';
-import logo from '../../Assets/Logo.png';
 
 const fadeIn = keyframes`
   from {
@@ -10,8 +10,6 @@ const fadeIn = keyframes`
     opacity: 1;
   }
 `;
-
-
 
 const Navbar = styled.nav`
   background-color: #A5BFCC;
@@ -57,9 +55,9 @@ const Login = styled.button`
   background-color: #A5BFCC;
   border: none;
   cursor: pointer;
-   font-family: "Rowdies", serif;
+  font-family: "Rowdies", serif;
   font-weight: 400;
-  font-size:20px;
+  font-size: 20px;
   transition: background-color 0.3s ease, transform 0.3s ease;
 
   &:hover {
@@ -72,21 +70,23 @@ const SignUp = styled.button`
   margin: 20px 50px 0px 0px;
   padding: 10px 25px 10px 20px;
   border-radius: 20px;
-   font-family: "Rowdies", serif;
+  font-family: "Rowdies", serif;
   font-weight: 400;
   font-style: normal;
   background-color: #A5BFCC;
   border: none;
   cursor: pointer;
-  
   transition: background-color 0.3s ease, transform 0.3s ease;
-   font-size:20px;
+  font-size: 20px;
+
   &:hover {
     background-color: #6D8B9A;
     transform: scale(1.1);
   }
 `;
-
+const Text = styled(RouterLink)`
+   text-decoration:none;
+`;
 const NavBar = () => {
   return (
     <Navbar>
@@ -106,8 +106,8 @@ const NavBar = () => {
         </NavLink>
       </NavLinks>
       <LoginOrSignUp>
-        <Login>Login</Login>
-        <SignUp>Sign Up</SignUp>
+        <Login > <Text to="/login" >Login</Text> </Login> 
+        <SignUp > <Text to="/signUp" >SignUp</Text> </SignUp> 
       </LoginOrSignUp>
     </Navbar>
   );
